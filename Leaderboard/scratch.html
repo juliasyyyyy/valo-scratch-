@@ -1,13 +1,12 @@
 <html>
     <header>
        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+       <link rel="stylesheet" href="styles.css">
        <link href="http://fonts.cdnfonts.com/css/akira-expanded" rel="stylesheet">
        <link href="http://fonts.cdnfonts.com/css/planet-kosmos" rel="stylesheet">
-       <link rel="stylesheet" href="styles.css">
 
 
     <!--navbar------------------------------------------>
-
     <nav class="navbar navbar-expand-lg navbar-Dark bg-DARK  " >
   <div class="container-fluid">
     <a class="navbar-brand" href="Index.html"><img src="images/full_logo.png" style="height:80;width:150"></a>
@@ -24,17 +23,17 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="Tournament.html">Tournament</a>
+          <a class="nav-link" href="leaderboard.html">Tournament</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="Leaderboard.html">Leaderboard</a>
+          <a class="nav-link" href="leaderboard.html">Leaderboard</a>
         </li>
         </ul>
 
         <ul class="my-2 my-md-0 navbar-nav ">
           <li class="nav-item">
-            <a class="nav-link" href="Log-in.html" > My Stats &nbsp;</a>
+            <a class="nav-link" href="Stats.html" > My Stats &nbsp;</a>
           </li>
 
           <li class="nav-item">
@@ -46,149 +45,67 @@
         </li>
       </ul>
 
-
-
-
-
     </div>
   </div>
 </nav>
 
   <!--body------------------------------------------>
 
-<br>
-<br>
+  <br>
+  <br>
   <h1>LEADERBOARD</h1>
 
-<!---<br>
-<a><h3> &ensp;&ensp;&emsp;&emsp;&emsp;&emsp;Teammate </h3>
-
- <h3> Opponent</h3></a>--->
-
-<!-----your team column---->
-  <div class="container">
-    <div class="row">
-  <div class="col-sm">
-    <table class="fixed" style="border-collapse:separate;border-radius:25px;border:1px solid black;margin-left:auto;margin-right:auto;">
+  <table>
+    <table style="border-collapse:separate;border-radius:25px;border:1px solid black;margin-left:auto;margin-right:auto;">
 
     <thead>
       <tr>
-        <th colspan="2" style="text-align:center;" class="title">TEAMMATE</th>
-      <tr>
+        <th>
         <th>Player
-
+        <th>Rank
         <th>Score
-
-<!---- first person---->
+        <th>Matches Played
     </thead>
     <tbody>
       <tr>
-        <!----name 1st person--->
+        <td><img class="product-image" src="images/DPjoe.png"/></td>
         <td>Joe Ilagan
-        <!----score 1st person--->
+        <td>1st Place
         <td>369
+        <td>#123
 
-
-
-
-<!---- 2nd person---->
       <tr>
-          <!----name 2nd person--->
+        <td><img class="product-image" src="images/DPchesca.png"/></td>
         <td>Chesca
-          <!----score 2nd person--->
+        <td>2nd Place
         <td>270
-
-<!---- 3rd person---->
+        <td>#456
       <tr>
-        <!----name 3rd person--->
+        <td><img class="product-image" src="images/DPjulia.png"/></td>
         <td>Julia
-          <!----score 3rd person--->
+        <td>2nd Place
         <td>270
-
-<!---- 4th person---->
+        <td>#789
       <tr>
-
-          <!----name 4th person--->
+        <td><img class="product-image" src="images/DPkevlin.png"/></td>
         <td>Kevlin
-            <!----score 4th person--->
+        <td>2nd Place
         <td>270
-
-<!---- 5th person---->
+        <td>#987
       <tr>
-
-          <!----name 5th person--->
+        <td><img class="product-image" src="images/DPjohn.png"/></td>
         <td>John
-          <!----score 5th person--->
+        <td>2nd Place
         <td>270
-
-
+        <td>#654
+      <tr>
+        <td><img class="product-image" src="images/DPjoben.png"/></td>
+        <td>Joben Ilagan
+        <td>Best Prof
+        <td>1,000,000
+        <td>#321
     </tbody>
   </table>
-</div>
-
-<!----- end of your team column---->
-
-
-<div class="col-sm"; style="color: #FFFFFF; font-size: 3.6em; font-weight: 500; text-align: center;   font-family: 'planet kosmos', sans-serif;" ><br> VS </div>
-
-<!-----your opponent column---->
-
-<div class="col-sm">
-  <table class="fixed"  style="border-collapse:separate;border-radius:25px;border:1px solid black;margin-left:auto;margin-right:auto;">
-
-
-  <thead>
-    <tr>
-      <th colspan="2" style="text-align:center;" class="title">OPPONENT</th>
-
-    <tr>
-      <th>Player
-      <th>Score
-
-  </thead>
-  <tbody>
-<!---- first person---->
-    <tr>
-    <!---- name 1st person opponent ---->
-      <td>Joe Ilagan
-    <!---- score 1st person opponent ---->
-      <td>369
-
-<!---- second person---->
-    <tr>
-      <!---- name 2nd person opponent ---->
-      <td>Chesca
-      <!---- score 2nd person opponent ---->
-      <td>270
-
-<!---- 3rd person---->
-    <tr>
-      <!---- name 3rd person opponent ---->
-      <td>Julia
-          <!---- score 3rd person opponent ---->
-      <td>270
-
-<!---- 4th person---->
-    <tr>
-      <!---- name 4th person opponent ---->
-      <td>Kevlin
-        <!---- score 4th person opponent ---->
-      <td>270
-
-<!---- 5th person---->
-    <tr>
-        <!---- name 5th person opponent ---->
-      <td>Joben Ilagan
-        <!---- score 5th person opponent ---->
-      <td>100
-
-  </tbody>
-
-</table>
-</div>
-</div>
-</div>
-
 
   <!--footer------------------------------------------>
 
@@ -222,8 +139,6 @@
     </header>
 </html>
 
-
-
 <style>
   body {
     background-color:#89CFF0;
@@ -248,11 +163,10 @@
     border-radius: 0.25em;
     border-collapse: collapse;
     margin: 1em;
-    padding: 3em 3em;
 
   }
   th {
-    border-bottom: 4px solid #ec244e;
+    border-bottom: 4px solid #FFFFFF;
     color: #FFFFFF;
     font-size: 17;
     font-weight: 600;
@@ -263,7 +177,7 @@
   td {
     color: #fff;
     font-weight: 400;
-    padding: 0.5em 3em;
+    padding: 0.65em 1em;
   }
   .disabled td {
     color: #4F5F64;
@@ -276,7 +190,7 @@
   }
 
   body {
-    background-image: url('images/BG_Geo-Gradient copy.PNG');background-size:cover;
+    background-image: url('images/BG_Spikes - Gradient.png');background-size:cover;
   }
 
   .product-image {
@@ -292,14 +206,6 @@
     text-align: center;
     font-family: 'akira expanded', sans-serif;
     }
-
-  h3{
-    font-family: 'akira expanded', sans-serif;
-    }
-
-    .title{
-      font-family: 'akira expanded', sans-serif;color:#FFFFFF;
-      }
 
 
 </style>
